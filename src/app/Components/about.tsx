@@ -65,7 +65,7 @@ export default function about (){
                         <input type="text" name="" className="inpt" placeholder="Intrested In"/>
                         <textarea name="" id="" className="inpt" required placeholder="Message *"></textarea>
 
-                        <input type="button" value="SEND EMAI-->" className="btn_submit"/>
+                        <input type="button" value="SEND EMAIL >" className="btn_submit"/>
                         
                     </form>
 
