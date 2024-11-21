@@ -1,0 +1,333 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*{
+    /* font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 4px; */
+    /* font-weight: 100; */
+    padding: 0%;
+}
+
+.nav{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    gap: 4em;
+    position: relative;
+    top: 3em;
+    font-size: 12px;
+    
+}
+.nav li{
+    letter-spacing: 4px;
+    transition: 1.3s;
+    cursor: pointer;
+    
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    border-width: 0px;
+
+}
+.nav li:nth-child(2){
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+}
+.nav li:hover{
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+
+}
+
+.logo {
+    position: absolute;
+    left: 5em;
+}
+
+
+.hero{
+    position: relative;
+    top: 5em;
+    display: flex;
+    justify-content:space-evenly;
+    padding: 4em;
+}
+
+
+.hero_text{
+    position: relative;
+    top :15em;
+
+}
+.img_side_nums{
+    position: relative;
+    top:17em;
+}
+.arrowbtns{
+    display: flex;
+    gap: 1em;
+    position: relative;
+    top: 10em;
+}
+.btns{
+    columns: 1;
+}
+.Heading{
+    font-size: 64px;
+    font-weight:lighter !important;
+    letter-spacing: 4px;
+    line-height: 63px;
+    color: grey;
+}
+.Heading b{
+    font-weight: 700;
+    color: #333333;
+    letter-spacing: normal;
+}
+.hero_Img{
+    position: relative;
+    top: -2em;
+}
+.img_hero{
+    width: 770px;
+    height: 829;
+}
+.btn_img{
+    position: absolute;
+    bottom: 0%;
+    width: 230px;
+    height: 51px;
+    background-color: rgb(243, 241, 241);
+    padding: 1em;
+    display: flex;
+}
+.arr_right{
+    height: 3em;
+    width: 5em;
+    position: relative;
+    top: -0.8em;
+}
+
+/* About Section */
+
+.About_section{
+    position: relative;
+    top: 15em;
+    background:#eaeaea;
+    display: flex;
+    width: 80%;
+    left: 10%;
+    
+}
+.About_images_section{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 50%;
+}
+.img_about{
+    margin: 1em;
+    position: relative;
+    top: 2em;
+}
+.About_text_section{
+    display: block;
+    
+}
+.heading_about{
+    position: relative;
+    font-size: 5em;
+    color: rgb(183, 183, 183);
+    font-weight: 300;
+
+}
+.para_about{
+    width: 40%;
+    position: relative;
+    top: 8em;
+    left: -11em;
+    font-size: 1.2em;
+    font-weight: 300;
+}
+.btn_read{
+    position: absolute;
+    bottom: 1em;
+    left: 45em;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #fafafa;
+    padding: 10px 30px;
+    font-weight: 100;
+
+}
+
+
+
+/* statement section */
+.statement{
+    position: relative;
+    top: 20em;
+    left: 10%;
+    width: 80%;
+    
+}
+.heading1{
+    font-size: 4.2em;
+    font-weight: 300;
+    color: #b5b5b5;
+}
+.states{
+    display: flex;
+    justify-content: space-around;
+    position: absolute;
+    left: -5%;
+    margin-top: 3em;
+    width: 100%;
+}
+.state_data{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.state_data p{
+    width: 60%;
+}
+
+.projects_section{
+    position: relative;
+    top: 39em;
+    width: 80%;
+    left: 10%;
+}
+.pro_img{
+    width: 100%;
+    
+}
+
+
+/* forms_section  */
+.form_section{
+    position: relative;
+    top: 50em;
+    left: 10%;
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+    gap: 0px;
+}
+.contect_form{
+    width: 50%;
+
+}
+.inpt{
+    display: block;
+    padding: 0.8em;
+    width: 50%;
+    background-color: #d5d4d4;
+    margin: 1em;
+}
+.inpt:focus{
+    border: none;
+    outline: none;
+}
+.inpt::placeholder{
+    color: black;
+}
+.img_form{
+    position: relative;
+    left: -21em;
+    top: 5.3em;
+}
+
+.btn_submit{
+    padding: 1.5em 3em;
+    background: #000;
+    color: white;
+    font-weight: 100;
+    font-size: 0.8em;
+    position: relative;
+    top: 3em;
+    left: 1.1em;
+}
+
+
+
+/* Footer Section */
+.footer{
+    position: relative;
+    top: 60em;
+    width: 100%;
+    height: 20em;
+    background: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo_f{
+    height: 10em;
+    width: 10em;
+}
+
+.f1{
+    width: 20%;
+    background: black;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 80px;
+    
+}
+
+.f2{
+    width: 30%;
+    background: black;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.f2-div{
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: left;
+}
+
+.f3{
+    width: 20%;
+    color: white;
+    position: relative;
+}
+
+.f4{
+    width: 30%;
+    height: 100%;
+}
+.h2{
+    font-size: 1.5em;
+    font-weight: 500;
+}
+
+.contact_f li{
+    margin: 1em;
+    display: flex;
+    gap: 1em;
+    
+}
+.icon_f{
+    height: 1.3em;
+    width: 1.5;
+    margin: 0.5em;
+}
+
+.f4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
